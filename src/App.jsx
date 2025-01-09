@@ -6,6 +6,10 @@ import "./App.css";
 function App() {
     const [count, setCount] = useState(0);
 
+    if (true) {
+        return null;
+    }
+
     return (
         <>
             <div className="flex justify-between">
