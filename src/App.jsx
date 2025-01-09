@@ -7,7 +7,7 @@ function App() {
     const [count, setCount] = useState(0);
 
     if (true) {
-        return null;
+        return undefined;
     }
 
     return (
